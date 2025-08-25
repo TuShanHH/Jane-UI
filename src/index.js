@@ -4,6 +4,6 @@ export { Button }
 
 export default {
   install(app) {
-    app.component('MyButton', Button)
+    app.component('wl-button', Button)
   }
 }
