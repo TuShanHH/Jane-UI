@@ -1,5 +1,6 @@
 <template>
   <button class="my-button"><slot /></button>
+  测试自己的ui组件库
 </template>
 
 <script setup>
