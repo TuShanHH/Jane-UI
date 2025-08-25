@@ -15,5 +15,7 @@ defineProps({
   border-radius: 4px;
   background-color: #3b82f6;
   color: white;
+  height: 200px;
+  width: 200px;
 }
 </style>
