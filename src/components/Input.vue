@@ -3,8 +3,8 @@ const props = defineProps({
     modelValue: String,
     placeholder: String,
 });
-
 const emit = defineEmits(["update"]);
+
 const onInput = (e) => {
     emit("update", e.target.value);
 };
