@@ -1,12 +1,8 @@
 {
-  "$schema": "https://json.schemastore.org/package.json",
   "name": "wanling",
   "version": "0.0.0",
   "main": "src/index.js",
   "module": "src/index.js",
-  "scripts": {
-    "build": "vite build"
-  },
   "exports": {
     ".": {
       "import": "./src/index.js",
