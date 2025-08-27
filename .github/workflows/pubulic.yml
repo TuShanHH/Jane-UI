@@ -19,13 +19,3 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run build
-        run: npm run build
-
-      # 可选：如有测试命令（如 Vitest 或 Jest），取消注释下一步
-      # - name: Run tests
-      #   run: npm run test
